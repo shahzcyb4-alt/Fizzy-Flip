@@ -145,3 +145,25 @@ footer {
   border-radius: 30px;
   cursor: pointer;
 }
+.more-flavors {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #00ff99;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.bottle-grid {
+  display: flex;
+  flex-direction: row;     /* side by side */
+  justify-content: center; /* centered */
+  align-items: flex-end;
+  gap: 24px;
+  flex-wrap: nowrap;       /* IMPORTANT: keeps them in one line */
+}
+
+.bottle-grid img {
+  width: 140px;            /* adjust size if needed */
+  height: auto;
+}
