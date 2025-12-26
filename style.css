@@ -198,3 +198,19 @@ footer {
   color: #ffffff;
   letter-spacing: 1px;
 }
+.hero-tagline {
+  font-size: 26px;
+  font-weight: 700;
+  color: #7CFF9B;
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+.hero-sub {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  opacity: 0.85;
+  margin-top: 6px;
+}
