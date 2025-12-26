@@ -167,3 +167,6 @@ footer {
   width: 140px;            /* adjust size if needed */
   height: auto;
 }
+.bottle-grid img:nth-child(4) {
+  display: none;
+}
