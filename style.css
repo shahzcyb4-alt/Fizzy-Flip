@@ -170,3 +170,31 @@ footer {
 .bottle-grid img:nth-child(4) {
   display: none;
 }
+.flavor-line {
+  font-size: 18px;
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+.hero-tagline {
+  font-size: 22px;
+  color: #7CFF9B;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-box img {
+  width: 70px;        /* increase logo size */
+  height: auto;
+}
+
+.brand-name {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
