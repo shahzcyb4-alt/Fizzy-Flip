@@ -1,10 +1,16 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: #0b1c12;
-  color: white;
+  background: radial-gradient(circle at top, #0f3d2e, #000000 70%);
+  color: #ffffff;
+  overflow-x: hidden;
 }
+
 
 .header {
   display: flex;
@@ -17,6 +23,45 @@ body {
   color: white;
   margin-left: 15px;
   text-decoration: none;
+}
+/* BOTTLE HOVER ANIMATION */
+.bottle-grid img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.bottle-grid img:hover {
+  transform: translateY(-14px) scale(1.05);
+  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.6));
+}
+
+/* SECTION FADE IN */
+.bottles, .products, .story {
+  animation: fadeUp 1.2s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* HERO TEXT GLOW */
+.hero h1 {
+  animation: glow 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(124,255,155,0.4);
+  }
+  to {
+    text-shadow: 0 0 25px rgba(124,255,155,0.9);
+  }
 }
 
 .hero {
@@ -41,6 +86,21 @@ body {
   padding: 20px;
   border: 1px solid #00ff88;
   border-radius: 12px;
+}
+.contact {
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 30px;
+  background: #7CFF9B;
+  color: #000;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
 }
 
 footer {
