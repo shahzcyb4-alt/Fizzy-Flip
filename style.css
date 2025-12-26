@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #0b1c12;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #020a05;
+}
+
+.header a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.products, .story, .distributor, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.product {
+  padding: 20px;
+  border: 1px solid #00ff88;
+  border-radius: 12px;
+}
+
+footer {
+  background: #020a05;
+  text-align: center;
+  padding: 20px;
+}
